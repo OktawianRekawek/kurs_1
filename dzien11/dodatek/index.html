@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <style>
+    div {
+      position: fixed;
+    }
+
+    .sky {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: skyblue;
+      z-index: -1;
+    }
+
+    .grass {
+      bottom: 0;
+      left: 0;
+      height: 30vw;
+      width: 100%;
+      background-color: green;
+    }
+
+    .sun {
+      bottom: 20vw;
+      left: 20vw;
+      height: 20vw;
+      width: 20vw;
+      background-color: orange;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sun"></div>
+  <div class="grass"></div>
+  <div class="sky"></div>
+</body>
+</html>

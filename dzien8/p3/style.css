@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/*nawigacja*/
+
+nav {
+  font-size: 0;
+}
+
+nav a {
+  display: inline-block;
+  width: 25%;
+  height: 40px;
+  /*  padding: 20px 0;*/
+  color: white;
+  background-color: gray;
+  font-size: 18px;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+}
+
+
+nav a.btn1 {
+  background-color: burlywood;
+}
+
+nav a.btn2 {
+  background-color: deepskyblue;
+}
+
+nav a.btn3 {
+  background-color: darkcyan;
+}
+
+nav a.btn4 {
+  background-color: royalblue;
+}
+
+
+nav a:hover {
+  color: black;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+/*header*/
+header {
+  height: 300px;
+  background-color: cadetblue;
+}
+
+/*main*/
+main {
+  min-height: 50vh;
+  background-color: burlywood;
+}
+
+/*footer*/
+footer {
+  min-height: 100px;
+  background-color: darkcyan;
+}

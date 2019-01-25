@@ -1,0 +1,120 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  /*  box-sizing: border-box;*/
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/*nawigacja*/
+nav {
+  margin: 30px auto;
+  text-align: right;
+  max-width: 1240px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 10px;
+  color: #555;
+  font-size: 1.8rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a.reservation {
+  font-size: 2.2rem;
+  border: 2px solid #555;
+  padding: 10px 30px;
+  margin-right: 50px;
+  margin-left: 80px;
+  letter-spacing: 1px;
+  transition: .2s;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #555;
+  color: black;
+}
+
+nav a.reservation:hover {
+  background-color: royalblue;
+  color: #eee;
+  border-color: royalblue;
+}
+
+/*header*/
+
+header {
+  height: 40vh;
+  background-image: url('../img/auto2.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+  line-height: 40vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*main*/
+
+main {
+  max-width: 1240px;
+  margin: 5vh auto;
+  font-size: 0;
+}
+
+main p.description {
+  margin: 0 30px 50px;
+  line-height: 180%;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+main div.feature {
+  display: inline-block;
+  width: 33.33%;
+}
+
+main div.image {
+  height: 200px;
+  background-color: royalblue;
+  margin: 20px 30px;
+}
+
+main div.image:hover {
+  background-color: aqua;
+}
+
+main h2 {
+  color: #222;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*footer*/
+
+footer {
+  background-color: #000;
+}
+
+footer p {
+  padding: 2rem 0;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}

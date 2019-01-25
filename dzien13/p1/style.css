@@ -1,0 +1,19 @@
+/*powyżej 1200px*/
+
+body {
+  background-color: rgb(255, 0, 0);
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-color: rgb(255, 255, 0);
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-color: rgb(100, 50, 50);
+  }
+}
+
+
