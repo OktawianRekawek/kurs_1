@@ -1,1 +1,1 @@
-Kurs /Web developer od podstaw w 15 dni/
+Kurs "Web developer od podstaw w 15 dni"
